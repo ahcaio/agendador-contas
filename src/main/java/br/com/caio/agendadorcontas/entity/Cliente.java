@@ -1,4 +1,4 @@
-package entity;
+package br.com.caio.agendadorcontas.entity;
 
 public class Cliente {
 	private Long id;

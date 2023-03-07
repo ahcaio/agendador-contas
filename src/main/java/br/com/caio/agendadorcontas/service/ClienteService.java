@@ -1,9 +1,10 @@
-package service;
-import entity.Cliente;
+package br.com.caio.agendadorcontas.service;
 import java.util.ArrayList;
 import java.util.List;
 
 import org.springframework.stereotype.Service;
+
+import br.com.caio.agendadorcontas.entity.Cliente;
 
 @Service
 public class ClienteService {

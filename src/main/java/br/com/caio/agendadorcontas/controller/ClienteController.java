@@ -1,6 +1,7 @@
-package controller;
-import entity.Cliente;
-import service.ClienteService;
+package br.com.caio.agendadorcontas.controller;
+import br.com.caio.agendadorcontas.*;
+import br.com.caio.agendadorcontas.entity.Cliente;
+import br.com.caio.agendadorcontas.service.ClienteService;
 
 import java.util.List;
 
@@ -16,8 +17,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 
 @RestController
-@RequestMapping
-
+@RequestMapping(value = "/cliente")
 public class ClienteController {
 	
 	@Autowired
