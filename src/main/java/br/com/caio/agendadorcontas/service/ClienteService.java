@@ -37,9 +37,9 @@ public class ClienteService {
 	/**
 	 * Método responsável por deletar um cliente na lista, simulando um delete de um usuário na base de dados
 	 */
-	public void deleteCliente(Long id) {
+	public void deleteCliente(long id) {
 		for (Cliente cliente: objeto) {
-			if (cliente.getId().equals(id))
+			if (cliente.getId() ==id)
 				objeto.remove(cliente);
 			break;
 		}
@@ -51,7 +51,7 @@ public class ClienteService {
 	 */
 	public void updateCliente(Cliente cliente) {
 		for (Cliente c: objeto) {
-			if (cliente.getId().equals(c.getId()))
+			if (cliente.getId() == c.getId())
 				deleteCliente(cliente.getId());
 				createCliente(cliente);
 		}

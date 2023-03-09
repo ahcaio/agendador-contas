@@ -1,7 +1,7 @@
 package br.com.caio.agendadorcontas.entity;
 
 public class Cliente {
-	private Long id;
+	private long id;
 	private String nome;
 	private String sobrenome;
 	private long idade;
@@ -16,7 +16,7 @@ public class Cliente {
 	}
 
 
-	public Long getId() {
+	public long getId() {
 		return id;
 	}
 
