@@ -7,6 +7,12 @@ import org.springframework.stereotype.Service;
 import br.com.caio.agendadorcontas.entity.Cliente;
 
 @Service
+/**
+ * O @Service marca uma classe Java que executa algum serviço, 
+ * como executar lógica de negócios, executar cálculos e chamar APIs externas.
+ * @author caio
+ *
+ */
 public class ClienteService {
 	
 	List<Cliente> objeto = new ArrayList<>();
