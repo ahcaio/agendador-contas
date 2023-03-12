@@ -54,6 +54,7 @@ public class ClienteService {
 			if (cliente.getId() == c.getId())
 				deleteCliente(cliente.getId());
 				createCliente(cliente);
+				break;
 		}
 		
 	}
